@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+main {
+    margin: 16px;
+}
+
+.navbak {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    background: #A88952;
+    color: white;
+    font-family: Helvetica;
+    font-weight: 300;
+}
+
+.navbask {
+   margin-left: 600px;
+    padding: 10px 10px; 
+    cursor: pointer;
+    vertical-align: middle;
+}

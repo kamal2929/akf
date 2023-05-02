@@ -108,7 +108,7 @@ export default function ProductDetail () {
 
                     <hr/>
 
-                    <p id="product_price">${product.price}</p>
+                    <p id="product_price">₹{product.price}</p>
                     <div className="stockCounter d-inline">
                         <span className="btn btn-danger minus" onClick={decreaseQty} >-</span>
 
@@ -116,7 +116,7 @@ export default function ProductDetail () {
 
                         <span className="btn btn-primary plus" onClick={increaseQty}>+</span>
                     </div>
-                    <button type="button" id="cart_btn" 
+                    <button type="button" id="  " 
                      disabled={product.stock==0?true:false} 
                      onClick={()=>{
                         dispatch(addCartItem(product._id, quantity))
@@ -137,9 +137,9 @@ export default function ProductDetail () {
                     <h4 className="mt-2">Description:</h4>
                     <p>{product.description}</p>
                     <hr/>
-                    <p id="product_seller mb-3">Sold by: <strong>{product.seller}</strong></p>
+                    
                     { user ?
-                    <button onClick={handleShow} id="review_btn" type="button" className="btn btn-primary mt-4" data-toggle="modal" data-target="#ratingModal">
+                    <button onClick={handleShow} id="" type="button" className="btn btn-primary mt-4" data-toggle="modal" data-target="#ratingModal">
                                 Submit Your Review
                     </button> :
                     <div className="alert alert-danger mt-5"> Login to Post Review</div>

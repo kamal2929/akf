@@ -20,7 +20,7 @@ export default function Product ({product, col}) {
                     </div>
                     <span id="no_of_reviews">({product.numOfReviews} Reviews)</span>
                 </div>
-                <p className="card-text">${product.price}</p>
+                <p className="card-text">₹{product.price}</p>
                 <Link to={`/product/${product._id}`} id="" className="btn btn-primary">View Details</Link>
                 </div>
             </div>

@@ -5,13 +5,13 @@ export default function Top1() {
         <div>
             <div className='navba'>
 
-                <div className='navbas'>About Us</div>
-                <div className='navbas'>Contact</div>
-                <div className='navbas'>Help</div>
-                <span className="a">
+                <div className='navbas'>Home</div>
+                <div className='navbas'>Products</div>
+                
+                {/* <span className="a">
                     <span className="navb-items"><i className="fa fa-code"></i>
                     </span>
-                </span>
+                </span> */}
             </div>
         </div>
     )

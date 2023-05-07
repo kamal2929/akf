@@ -40,6 +40,7 @@ import UpdateUser from './components/admin/UpdateUser';
 import ReviewList from './components/admin/ReviewList';
 import Top1 from './components/layouts/top';
 import Down1 from './components/layouts/down';
+import Ehome from './components/three/home/Ehome'
 
 function App() {
   const [stripeApiKey, setStripeApiKey] = useState("")
@@ -64,6 +65,8 @@ function App() {
                   <ToastContainer theme='dark' />
                   <Routes>
                       <Route path='/' element={<Home/>} />
+                      <Route path='/akfhome' element={<Ehome/>} />
+                  
                       <Route path='/search/:keyword' element={<ProductSearch/>} />
                       <Route path='/product/:id' element={<ProductDetail/>} />
                       <Route path='/login' element={<Login/>} />

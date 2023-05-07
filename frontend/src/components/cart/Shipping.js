@@ -29,7 +29,7 @@ export default function Shipping() {
     const [city, setCity] = useState(shippingInfo.city);
     const [phoneNo, setPhoneNo] = useState(shippingInfo.phoneNo);
     const [postalCode, setPostalCode] = useState(shippingInfo.postalCode);
-    const [country, setCountry] = useState(shippingInfo.country);
+    const [country, setCountry] = useState("Bangladesh");
     const [state, setState] = useState(shippingInfo.state);
     const countryList =  Object.values(countries);
     const dispatch = useDispatch();
@@ -100,24 +100,7 @@ export default function Shipping() {
                                 />
                             </div>
 
-                            <div className="form-group">
-                                <label htmlFor="country_field">Country</label>
-                                <select
-                                    id="country_field"
-                                    className="form-control"
-                                    value={country}
-                                    onChange={(e) => setCountry(e.target.value)}
-                                    required
-
-                                >{ countryList.map((country, i) => (
-
-                                    <option key={i} value={country.name}>
-                                        {country.name}
-                                    </option>
-                                ))
-                                }
-                                </select>
-                            </div>
+                            
                             <div className="form-group">
                                 <label htmlFor="state_field">State</label>
                                 <input

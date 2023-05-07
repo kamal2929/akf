@@ -99,8 +99,8 @@
   }
   
   .nav-item.active {
-    color: #ffdd40;
-    border: 1px solid #ffdd40;
+    color: #0e3b96;
+    border: 1px solid #0e2886;
   }
   
   .nav-icon {
@@ -133,7 +133,7 @@
       z-index: 1;
     }
     .nav-item .active {
-      color: #ffdd40;
+      color: #062671;
       border: none;
     }
     .nav-links {
@@ -150,6 +150,6 @@
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
       cursor: pointer;
-      color: #ffdd40;
+      color: #2660dc;
     }
   }

@@ -49,7 +49,7 @@ export default function UserOrders () {
             data.rows.push({
                 id:  userOrder._id,
                 numOfItems: userOrder.orderItems.length,
-                amount: `$${userOrder.totalPrice}`,
+                amount: `₹${userOrder.totalPrice}`,
                 status: userOrder.orderStatus && userOrder.orderStatus.includes('Delivered') ?
                 (<p style={{color: 'green'}}> {userOrder.orderStatus} </p>):
                 (<p style={{color: 'red'}}> {userOrder.orderStatus} </p>),

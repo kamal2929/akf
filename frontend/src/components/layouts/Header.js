@@ -36,7 +36,7 @@ export default function Headder() {
         </div>
         
           <div className="col-12 col-md-6 mt-2 mt-md-0">
-          
+          <Search/>
         </div>
           
       

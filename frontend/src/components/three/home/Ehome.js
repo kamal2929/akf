@@ -277,12 +277,7 @@ export default function Home() {
                                                 
                                             </div>
 
-                                            <div class="other_links">
-                                                <span class="bold">COMPANY</span><br />
-                                                
-                                                <a href="" class="block_links">Terms & Conditions</a>
-                                                <a href="" class="block_links">Privacy & Cookie Policy</a>
-                                            </div>
+                                           
                                             <div class="other_links">
                                                 <span class="bold">CONTACT</span><br/>
                                                     <a href="" class="block_links">Jagadeesan</a>                                   

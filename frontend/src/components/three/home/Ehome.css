@@ -1,8 +1,16 @@
+@media only screen and (max-width: 600px) {
+   footer {
+    width:fit-content;
+   }
+ }
+
+
 :root{
     font-family: poppins, Arial, Helvetica, sans-serif;
     overflow-x: hidden;
     width: 100%;
 }
+
 #header_content{
     width: 100%;
     position: absolute;

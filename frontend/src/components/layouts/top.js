@@ -14,8 +14,8 @@ export default function Top1() {
                 <Link to="/login">
                 <div className='navbas'>Login</div>
                 </Link>
-                <Link to="/search">
-                <div className='navbas'>Search</div>
+                <Link to="/cart">
+                <div className='navbas'>Cart</div>
                 </Link>
                 {/* <span className="a">
                     <span className="navb-items"><i className="fa fa-code"></i>

@@ -36,7 +36,7 @@ export default function Headder() {
         </div>
         
           <div className="col-12 col-md-6 mt-2 mt-md-0">
-          <Search/>
+      
         </div>
                         <div className="col-12 col-md-3 mt-4 mt-md-0 text-center">
           { isAuthenticated ? 
@@ -64,7 +64,7 @@ export default function Headder() {
           <span className="ml-1" id="cart_count">{cartItems.length}</span>
         </div>
                      <div className="nav-icon" onClick={handleClick}>
-            {/* <i className={click ? "fa fa-times" : "fa fa-bars"}></i> */}
+            <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
           </div>
         </div>
       </nav>
